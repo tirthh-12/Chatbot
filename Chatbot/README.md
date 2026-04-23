@@ -20,7 +20,7 @@ A conversational AI chatbot built with **LangGraph** and **Streamlit**, powered 
 
 | Layer | Technology |
 |---|---|
-| LLM | Groq — `llama-3.3-70b-versatile` |
+| LLM | Huggingface 'meta-llama/Llama-3.3-70B-Instruct' |
 | Orchestration | LangGraph |
 | Prompt Templates | LangChain Core |
 | UI | Streamlit |
@@ -86,7 +86,7 @@ cp .env.example .env   # macOS/Linux
 copy .env.example .env  # Windows
 
 # Open .env and add your Groq API key
-GROQ_API_KEY=your_groq_api_key_here
+HUGGINGFACEHUB_API_KEY=your_huggingfacehub_api_key_here
 ```
 
 > Get your free API key at [console.groq.com](https://console.groq.com)
